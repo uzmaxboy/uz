@@ -47,7 +47,7 @@ let trees = [
 ];
 
 const mongo = require('mongoose');
-mongo.connect('mongodb://');
+mongo.connect('mongodb://localhost:27017/bogatiry');
 
 const ADMINS = [452405593];
 
